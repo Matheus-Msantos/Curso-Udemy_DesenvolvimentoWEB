@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Meu site</title>
+        <meta charset ="utf-8">
+    </head>
+    <body>
+        <h2>A empresa</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lacus augue, feugiat non condimentum in, faucibus id sapien. </p>
+        <hr>
+        <h2>Vantagens de ser cliente</h2>
+        <!-- Type: Circle, square, disc -->
+        <ol>
+            <li>Atendimento <strong>rápido</strong></li>
+            <li>Preços especiais</li>
+            <li>Muitas cidades</li>
+        </ol>
+        <hr>
+        <h2>O que os clientes estão dizendo:</h2>
+        <p><em>"Gostei demais do atendimento, foi muito rápido e com certeza irei voltar!"</em></p>
+        <p><strong>Maria Almeida</strong></p>
+        <hr>
+        <h2>Mapa do site</h2>
+        <ul>
+            <li>Home</li>
+            <li>Quem somos</li>
+            <li>Contato</li>
+        </ul>
+        <hr>
+        <img src="imagens/ferrari.jpg">
+        <hr>
+        <h2>Inserindo links</h2>
+        <a href="contato.html">Contato</a>
+        <hr>
+        <h2>Tabelas</h2>
+        <table border="2px" width="50%">
+            <tr>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>Item1</td>
+                <td>R$xx,xx</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Item2</td>
+                <td>R$xx,xx</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Descontos</td>
+                <td colspan="2">CupomY -R$xx,xx</td>
+            </tr>
+            <tr>
+                <td colspan="2">CupomZ -R$xx,xx</td>
+            </tr>
+            <tr>
+                <td>Total</td>
+                <td colspan="2">R$xx.xxx,xx</td>
+            </tr>
+        </table>
+        <hr>
+        <h2>Login</h2>
+        <form>
+            Email:<br>
+            <input type="text" name="login"><br>
+            Senha:<br>
+            <input type="password" name="senha"><br>
+            <input type="button" value="Entrar"><br><br>
+        </form>
+        <form>
+            <h2>Cadastre-se</h2>
+            Login:<br>
+            <input type="text" name="login"><br><br>
+
+            Sexo:<br>
+            <input type="radio" name="sexo" value="Masc">Maculino<br>
+            <input type="radio" name="sexo" value="Fem">Feminino<br><br>
+
+            Interesses:<br>
+            <input type="checkbox" name="interesses">Esportes<br>
+            <input type="checkbox" name="interesses">Cursos<br>
+            <input type="checkbox" name="interesses">Moda<br>
+            <input type="checkbox" name="interesses">Arte<br><br>
+
+            Estado:<br>
+            <select name="estado">
+                <option value="Sp">SP</option>
+                <option value="Rj">RJ</option>
+                <option value="Mg">MG</option>
+                <option value="Es">ES</option>
+            </select><br><br>
+
+            observação:<br>
+            <textarea></textarea><br><br>
+
+            <input type="submit" value="Cadastrar">
+
+        </form>
+    </body>
+</html>

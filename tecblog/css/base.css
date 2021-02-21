@@ -1,0 +1,51 @@
+:root {
+  --white: #fff;
+  --orange: #f7b600;
+  --grey: #e6e6e6;
+  --greyDark: #4e4e4e; 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 1em;
+}
+
+/*--- Menu ---*/
+
+.menu {
+  background: var(--orange);
+  padding: 15px;
+  text-align: center;
+}
+
+.logo {
+  color: var(--greyDark);
+  font-size: 2.5em;
+  padding: 10px;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.link{
+  padding: 10px;
+}
+
+.link a {
+  color: var(--white);
+  padding: 8px 12px;
+  text-decoration: none;
+}
+.link a:visited {
+  color: var(--white);
+}
+
+.link a:hover {
+  color: var(--orange);
+  background: var(--white);
+  border-radius: 5px;
+}

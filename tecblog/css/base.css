@@ -1,8 +1,9 @@
 :root {
-  --white: #fff;
+  --white: #FFF;
   --orange: #f7b600;
-  --grey: #e6e6e6;
+  --grey: #CCC;
   --greyDark: #4e4e4e; 
+  --greyWhite: #e6e6e6;
 }
 
 * {
@@ -10,7 +11,6 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Trebuchet MS", sans-serif;
-  font-size: 1em;
 }
 
 /*--- Menu ---*/
@@ -23,7 +23,7 @@
 
 .logo {
   color: var(--greyDark);
-  font-size: 2.5em;
+  font-size: 2em;
   padding: 10px;
 }
 

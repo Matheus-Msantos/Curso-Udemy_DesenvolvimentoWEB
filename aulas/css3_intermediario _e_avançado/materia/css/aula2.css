@@ -1,0 +1,30 @@
+/*---- Herança ----*/
+
+body {
+  border: 1px solid blue;
+}
+
+/*---- Especificidade ----*/
+#especificidade p{
+  color: blue;
+}
+
+#especificidade p{
+  color: green;
+}
+
+
+* {
+ color: red; 
+}
+
+h2 { /*3*/
+  color: blue;
+}
+h2.verde { /*2*/
+  color: green;
+}
+
+h2#amarelo {
+  color: yellow;
+}

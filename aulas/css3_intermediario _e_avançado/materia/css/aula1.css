@@ -1,0 +1,47 @@
+/*---- Seletor Universal ----*/
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 10px;
+}
+
+/*---- Seletor de texto ----*/
+h3 {
+  color: green;
+}
+
+/*---- Seletor de classe ----*/
+.txt-red {
+  color: red;
+}
+
+/*---- Seletor de ID ----*/
+#bg-grey {
+  color: white;
+  background-color: grey;
+  padding: 10px;
+}
+
+/*---- Seletor de filho ----*/
+li>a {
+  color: red;
+  text-decoration: none;
+}
+
+/*---- Seletor de descendente ----*/
+p a {
+  color: white;
+  background-color: red;
+}
+
+/*---- Seletor de irmao adjacente ----*/
+h3+p {
+  color: blue;
+  font-weight: bold;
+}
+
+/*---- Seletor de irmao geral ----*/
+h4~p{
+  font-weight: bold;
+  color: pink;
+}
